@@ -56,7 +56,7 @@ mybatis:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-dept                                  # 微服务的名称
   datasource:
